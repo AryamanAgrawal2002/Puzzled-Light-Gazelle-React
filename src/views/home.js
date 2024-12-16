@@ -7,7 +7,7 @@ import './home.css'
 
 const Home = (props) => {
   return (
-    <div className="home-container1">
+    <div className="home-container10">
       <Helmet>
         <title>Puzzled Light Gazelle</title>
         <meta property="og:title" content="Puzzled Light Gazelle" />
@@ -25,38 +25,44 @@ const Home = (props) => {
         }
         link2={
           <Fragment>
-            <span className="home-text12">About Us</span>
+            <span className="home-text12">
+              <span>Experience</span>
+              <br></br>
+            </span>
           </Fragment>
         }
         link1Url="#home"
+        link2Url="#experience"
       ></Navbar5>
-      <div id="home" className="home-container2">
-        <div className="home-container3">
-          <span className="home-text13">Aryaman Agrawal</span>
-          <span className="home-text14">
+      <div id="home" className="home-container11">
+        <div className="home-container12">
+          <span className="home-text15">Aryaman Agrawal</span>
+          <span className="home-text16">
             <span>Hey 👋 Welcome to my corner of the Internet!</span>
             <br></br>
             <span>
-              I&apos;m extremely passionate about engineering and startups.
-              I&apos;m currently at Georgia Tech, getting my BS &amp; MS in
-              Computer Science. I love hacking on projects and building cool
-              things 🚀
+              I’m a mechanical engineering student at Georgia Tech, passionate
+              about innovation and problem-solving. With hands-on experience at
+              Tesla, Rivian, and other cutting-edge organizations, I’ve worked
+              on everything from designing battery components to creating
+              advanced manufacturing processes. 🚗🔋
             </span>
             <br></br>
-            <span>
-              Previously, I worked on engineering/product at Coinbase, Mercury,
-              Avenue, NCR&apos;s Innovation Lab, and Untapped 👷
-            </span>
             <br></br>
             <span>
-              I&apos;m passionate about Fintech, Crypto, B2B SaaS, Logistics,
-              and AI/ML. Ages ago, I hosted a podcast - Capercast 🎙️
+              I love tackling challenges that blend engineering with creativity,
+              like prototyping dynamic systems or designing hybrid vehicle
+              components. Outside of work, I enjoy mentoring as a Prototyping
+              Instructor at the Invention Studio and leading impactful teams,
+              from robotics competitions to space settlement design challenges.
             </span>
             <br></br>
+            <br></br>
             <span>
-              Outside of tech, I enjoy traveling, driving, and eating out.
-              Recently, I&apos;ve been diving into scuba and going to concerts
-              🤿🎶
+              When I’m not engineering, you can find me exploring new tech,
+              building things, or diving into exciting projects that push the
+              boundaries of what’s possible. Let’s create something
+              extraordinary together! 🚀
             </span>
           </span>
         </div>
@@ -67,32 +73,79 @@ const Home = (props) => {
           className="home-image1"
         />
       </div>
-      <div id="experience" className="home-container4">
-        <div className="home-container5">
-          <img alt="image" src="/tesla_logo-200h.png" className="home-image2" />
-          <span>Text</span>
+      <div id="experience" className="home-container13">
+        <div className="home-container14">
+          <div className="home-container15">
+            <img
+              alt="image"
+              src="/inverted-logo-200h.png"
+              className="home-image2"
+            />
+          </div>
+          <span className="home-text26">
+            <span>Designed and engineered an</span>
+            <br></br>
+            <span> enclosing case for</span>
+            <br></br>
+            <span>
+              the battery management system
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <br></br>
+            <span>for increasing its durability.</span>
+          </span>
         </div>
-        <div className="home-container6">
-          <img
-            alt="image"
-            src="/inverted-logo-200h.webp"
-            className="home-image3"
-          />
-          <span>Text</span>
+        <div className="home-container16">
+          <img alt="image" src="/logo-l-200h.png" className="home-image3" />
+          <span className="home-text34">
+            <span>Researched and learnt about</span>
+            <br></br>
+            <span>the internal combustion engine,</span>
+            <br></br>
+            <span>calibration, on board diagnostics</span>
+            <br></br>
+            <span> and vehicle emissions for 120+ hours</span>
+          </span>
         </div>
-        <div className="home-container7">
-          <img alt="image" src="/logo-l-200h.png" className="home-image4" />
-          <span>Text</span>
+        <div className="home-container17">
+          <img alt="image" src="/images-200h.png" className="home-image4" />
+          <span className="home-text42">
+            <span>Redesigned manufacturing processes,</span>
+            <br></br>
+            <span>developed prototypes, and commissioned</span>
+            <br></br>
+            <span>equipment to enhance assembly</span>
+            <br></br>
+            <span>line efficiency and ergonomics.</span>
+          </span>
         </div>
-        <div className="home-container8">
-          <img alt="image" src="/images-200h.png" className="home-image5" />
-          <span>Text</span>
-        </div>
-        <div className="home-container9">
-          <img alt="image" src="/tesla_logo-200h.png" className="home-image6" />
-          <span>Text</span>
+        <div className="home-container18">
+          <img alt="image" src="/tesla_logo-200h.png" className="home-image5" />
+          <span className="home-text50">
+            <span>Developed cost-saving</span>
+            <br></br>
+            <span>battery </span>
+            <span>components, optimized</span>
+            <br></br>
+            <span>protective </span>
+            <span>strategies, and</span>
+            <br></br>
+            <span>prototyped sealing </span>
+            <span>solutions</span>
+            <br></br>
+            <span>with custom PCB designs</span>
+            <br></br>
+            <span>to enhance performance</span>
+            <br></br>
+            <span>and reliability.</span>
+          </span>
         </div>
       </div>
+      <div className="home-container19"></div>
     </div>
   )
 }

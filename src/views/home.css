@@ -1,4 +1,4 @@
-.home-container1 {
+.home-container10 {
   width: 100%;
   display: flex;
   min-height: 100vh;
@@ -7,6 +7,10 @@
 }
 .home-text10 {
   display: inline-block;
+  font-size: 35px;
+  font-style: normal;
+  font-family: "Rubik";
+  font-weight: 600;
 }
 .home-text11 {
   display: inline-block;
@@ -14,7 +18,7 @@
 .home-text12 {
   display: inline-block;
 }
-.home-container2 {
+.home-container11 {
   gap: 5%;
   flex: 1;
   width: 100%;
@@ -24,7 +28,7 @@
   justify-content: center;
   background-color: #000000;
 }
-.home-container3 {
+.home-container12 {
   gap: 10px;
   width: 100%;
   height: 100%;
@@ -34,14 +38,14 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-text13 {
+.home-text15 {
   color: rgb(255, 255, 255);
   font-size: 3em;
   font-style: normal;
   font-family: "Rubik";
   font-weight: 600;
 }
-.home-text14 {
+.home-text16 {
   color: rgb(255, 255, 255);
   width: 100%;
   font-size: 1.1em;
@@ -55,16 +59,18 @@
   padding: 5%;
   object-fit: cover;
 }
-.home-container4 {
+.home-container13 {
   flex: 5;
   width: 100%;
   height: auto;
   display: flex;
+  padding: 1%;
   overflow-y: scroll;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
-.home-container5 {
+.home-container14 {
+  gap: 3vh;
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -73,11 +79,18 @@
   flex-direction: column;
   justify-content: center;
 }
+.home-container15 {
+  background-color: #000000;
+}
 .home-image2 {
-  width: 50%;
+  width: auto;
   object-fit: cover;
 }
-.home-container6 {
+.home-text26 {
+  font-family: "Rubik";
+}
+.home-container16 {
+  gap: 3vh;
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -87,10 +100,14 @@
   justify-content: center;
 }
 .home-image3 {
-  width: auto;
+  width: 50%;
   object-fit: cover;
 }
-.home-container7 {
+.home-text34 {
+  font-family: "Rubik";
+}
+.home-container17 {
+  gap: 3vh;
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -103,20 +120,11 @@
   width: 50%;
   object-fit: cover;
 }
-.home-container8 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
+.home-text42 {
+  font-family: "Rubik";
 }
-.home-image5 {
-  width: 50%;
-  object-fit: cover;
-}
-.home-container9 {
+.home-container18 {
+  gap: 1vh;
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -126,7 +134,20 @@
   justify-content: center;
   -webkit-scrollbar: hidden;
 }
-.home-image6 {
+.home-image5 {
   width: 50%;
   object-fit: cover;
+}
+.home-text50 {
+  font-family: "Rubik";
+}
+.home-container19 {
+  width: 100%;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000000;
 }
